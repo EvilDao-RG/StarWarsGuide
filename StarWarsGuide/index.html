@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./node/bootstrap/bootstrap.min.css">
+</head>
+<body>
+    <!--Header-->
+    <p class="img-container">
+        <img id="logo" alt="logo" src="images/main/logo.png">
+    </p>
+
+    <!--Carousel-->
+    <div class="row justify-content-around" style="margin-top:3rem;">
+        <div class="col-4 order-2">
+            <div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <a class="carousel-item active" href="https://www.disneyplus.com/es-419/movies/star-wars-una-nueva-esperanza-episodio-iv/12fVeZxD2fWJ" target="_blanck">
+                        <img class="carousel-img" src="images/carousel/aNewHope.jpg" alt="logo">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-el-imperio-contraataca-episodio-v/iqtDTZAewwYl" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/EmpireStrikesBack.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-el-regreso-del-jedi-episodio-vi/6QGKo5mjDBS8" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/ReturnOfTheJedi.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-la-amenaza-fantasma-episodio-i/2ezYynkgW1AH" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/PhantomMenace.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-el-ataque-de-los-clones-episodio-ii/mgpYHGnzZW6N" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/AttackOfTheClones.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-la-venganza-de-los-sith-episodio-iii/4WvbqLFumNvi" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/RevengeOfTheSith.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-el-despertar-de-la-fuerza-episodio-vii/1LEKJPDPeMr7" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/ForceAwakens.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-los-ultimos-jedi-episodio-viii/1nCWFK1pmAI0" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/LastJedi.jpg" alt="poster">
+                    </a>
+                    <a class="carousel-item" href="https://www.disneyplus.com/es-419/movies/star-wars-el-ascenso-de-skywalker-episodio-ix/5e8JThYwCYgw" target="_blanck">
+                        <img  class="carousel-img" src="images/carousel/RiseOfSkywalker.jpg" alt="poster">
+                    </a>
+                </div>
+                <a class="carousel-control-prev" data-bs-target="#mainSlider" type="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+                <a class="carousel-control-next" data-bs-target="#mainSlider" type="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+            </div>
+        </div>
+    <!--Intro-->
+        <div class="col-7 order-1" id="intro">
+            <div class="container">
+                <p>La saga de películas de Star Wars es una de las más icónicas de la historia del cine, no solo por su historia,
+                    sino por su fascinante universo que marcó a una generación entera, lo más probable es que si aún si no has visto Star Wars, 
+                    ya conoces algo de su historia o su universo, porque se volvió una parte importante de la cultura pop.</p>
+                <p>Algo muy hablado entre los fans de Star Wars, es el orden para ver las películas, ya que, básicamente, hay 2 formas:</p>
+                <ul>
+                    <li>Orden de salida: Para vivir la historia desde la perspectiva de quienes crecieron con las películas y sorprenderte como ellos.</li>
+                    <li>Orden cronológico: La forma más sencilla de comprender la historia.</li>
+                </ul>
+                <p>Según tus preferencias puedes elegir verlas de la forma que tu quieras, no hay una que sea mejor que la otra. Por esto, si eres de las
+                    pocas personas que nunca han visto las películas, o ya las viste y ya no te acuerdas, o simplemente quieres ver las películas de otra 
+                    forma, aquí tienes la guía para verlas de las 2 formas.
+                </p>
+                <p>Puedes hacer click en cualquiera de las imágenes para ir a Disney+ a ver la película.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Button-->
+    <div class="row justify-content-center" id="button">
+        <div class="col-md-auto">
+            <button type="button" class="btn btn-outline-warning" id="switch">Cambiar Orden</button>
+        </div>
+    </div> 
+
+    <p id="orden">Orden en el que salieron</p>
+
+
+    <!--Movies-->
+    <div class="row justify-content-center" id="e4" style="margin-top:3rem;">
+            <div class="col-7">
+                <div class="container">
+                    <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-una-nueva-esperanza-episodio-iv/12fVeZxD2fWJ" target="_blanck">
+                        <img class="movie" src="./images/cards/aNewHope.jpg" alt="">
+                    </a>
+                    <h1 class="container-title">Episodio IV: Una Nueva Esperanza</h1>
+                    <p class="text">La película que inició todo, un clásico del cine que empezó a revolucionarlo por completo, el inicio de la historia
+                        de Luke Skywalker y del desarrollo del universo más fascinante que jamás se ha hecho.</p>
+                </div>
+            </div>
+    </div>
+
+    <div class="row justify-content-center" id="e5" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-el-imperio-contraataca-episodio-v/iqtDTZAewwYl" target="_blanck">
+                    <img class="movie" src="./images/cards/EmpireStrikesBack.jpg" alt="">
+                </a>
+                <h1 class="container-title">Episodio V: El Imperio Contraataca</h1>
+                <p class="text">El clasico del cine y de la cultura pop más exitoso e icónico de todos los tiempos, una película emocionante que es responsable
+                    de que todos conozcan a Darth Vader aunque no hayan visto nada de Star Wars.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e6" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-el-regreso-del-jedi-episodio-vi/6QGKo5mjDBS8" target="_blanck">
+                    <img class="movie" src="./images/cards/ReturnOfTheJedi.jpg" alt="">
+                </a>
+                <h1 class="container-title">Episodio VI: El Regreso del Jedi</h1>
+                <p class="text">Tras los eventos de la película anterior, el cierre de esta etapa de la historia no se queda atrás de sus 2 predecesoras y da
+                    una gran historia con varios momentos muy ansiados, pero también varios muy inesperados</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e1" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-la-amenaza-fantasma-episodio-i/2ezYynkgW1AH" target="_blanck">
+                    <img class="movie" src="./images/cards/PhantomMenace.jpg" alt="">
+                </a>
+                <h1 class="container-title">Episodio I: La Amenaza Fantasma</h1>
+                <p class="text">El regreso de la saga después de casi 30 años de inactividad introduce la historia que originó todo lo que se vio en episodio IV
+                    décadas atrás, con enfrentamientos más espectaculares y una gran faceta del universo por descubrir.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e2" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-el-ataque-de-los-clones-episodio-ii/mgpYHGnzZW6N" target="_blanck">
+                    <img class="movie" src="./images/cards/AttackOfTheClones.jpg" alt="">
+                </a>
+                <h1 class="container-title">Episodio II: El Ataque de los Clones</h1>
+                <p class="text">El conflicto que lo comenzó todo empieza a hacerse cada vez más grande, parece que algo se esconde entre las sombras
+                    pero no se sabe exactamente qué es.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e3" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-la-venganza-de-los-sith-episodio-iii/4WvbqLFumNvi" target="_blanck">
+                    <img class="movie" src="./images/cards/RevengeOfTheSith.jpg" alt="">
+                </a>
+                <h1 class="container-title">Episodio III: La Venganza de los Sith</h1>
+                <p class="text">Probablemente uno de los cierres más emocionantes e increíbles de ver, todas las piezas empiezan a encajar y el plan malvado
+                    sale a la luz para destruirlo todo.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e7" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-el-despertar-de-la-fuerza-episodio-vii/1LEKJPDPeMr7" target="_blanck">
+                    <img class="movie" src="./images/cards/ForceAwakens.png" alt="">
+                </a>
+                <h1 class="container-title">Episodio VII: El Despertar de la Fuerza</h1>
+                <p class="text">La continuación de la historia original propone nuevos e interesantes personajes en un nuevo conflicto en el que el
+                    pasado es el principal enemigo</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e8" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" href="https://www.disneyplus.com/es-419/movies/star-wars-los-ultimos-jedi-episodio-viii/1nCWFK1pmAI0" target="_blanck">
+                    <img class="movie" src="./images/cards/LastJedi.jpeg" alt="">
+                </a>
+                <h1 class="container-title">Episodio VIII: Los Ultimos Jedi</h1>
+                <p class="text">Una película que propone un enfoque nunca antes visto en una historia de Star Wars y que sin duda levantó mucha polémica
+                    en su momento, sin embargo, sigue siendo una película emocionante con excelentes momentos y peleas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" id="e9" style="margin-top:3rem;">
+        <div class="col-7">
+            <div class="container">
+                <a class="img-container" id="e9" href="https://www.disneyplus.com/es-419/movies/star-wars-el-ascenso-de-skywalker-episodio-ix/5e8JThYwCYgw" target="_blanck">
+                    <img class="movie" src="./images/cards/RiseOfSkywalker.jpg" alt="">
+                </a>
+                <h1 class="container-title">Episodio IX: El Ascenso de Skywalker</h1>
+                <p class="text">El cierre de toda la saga, la que pone el punto final y da una conclusión épica a más de 40 años de películas y series.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Scripts-->
+    <!-- <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="./node/jquery/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="./node/popper/popper.min.js"></script>
+    <script src="./node/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
